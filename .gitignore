@@ -69,6 +69,4 @@ TestResults/
 **/bin/
 **/obj/
 **/package/
-./bin/
-./obj/
 .env
