@@ -1,0 +1,74 @@
+# Ignore build outputs and logs
+bin/
+obj/
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.vspscc
+.vscode/
+.vs/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored if packages are restored during build
+packages/
+# Uncomment if you have a local tool chain installed
+# .tools/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# MongoDB data directory
+C:/data/db
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environment
+venv/
+.env/
+
+# Python dependencies
+requirements.txt
+
+# Ignore downloaded MongoDB ZIP and extracted files
+mongodb.zip
+C:/MongoDB/
+
+# Generated Swagger files
+swagger.json
+modified_swagger.json
+
+# Test results
+TestResults/
+
+# Ignore build outputs
+**/bin/
+**/obj/
+**/package/
+./bin/
+./obj/
+.env
